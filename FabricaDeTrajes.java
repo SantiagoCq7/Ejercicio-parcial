@@ -31,7 +31,7 @@ public class FabricaDeTrajes implements IFabricaDeTrajes {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Seleccione el tipo de componente (1. Falda, 2. Chaqueta, 3. Pantalón, 4. Blusa): ");
         int tipo = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el buffer
+        scanner.nextLine(); 
 
         System.out.println("Ingrese el id del componente:");
         int id = scanner.nextInt();
